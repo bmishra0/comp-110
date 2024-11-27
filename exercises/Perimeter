@@ -1,0 +1,14 @@
+"""Some perimeter funtion definitions."""
+
+
+def perimeter(length: float, width: float) -> float:
+    """Calculate the perimeter of a Rectangle."""
+    return length * 2.0 + width * 2.0
+
+
+def square_perimeter(side: float) -> float:
+    """Calculate the perimeter of a Sqaure."""
+    return perimeter(length=side, width=side)
+
+
+print(square_perimeter(side=1.0))
